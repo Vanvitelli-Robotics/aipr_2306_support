@@ -10,7 +10,7 @@ Porting ROS2 del simulatore in [link](https://github.com/Vanvitelli-Robotics/aip
 Nella cartella src del ros workspace
 ```bash
 git clone https://github.com/Vanvitelli-Robotics/uclv_aipr_panda_sim.git #Simulatore
-git clone https://github.com/marcocostanzo/aipr_2306_support.git
+git clone https://github.com/Vanvitelli-Robotics/aipr_2306_support.git
 sudo apt update && rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 ```
 
